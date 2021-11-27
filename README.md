@@ -50,7 +50,7 @@ Plotted a second USGS map with a second data set on the map to illustrate the re
 ### Final: 
  * Added additional styling to the popups. 
  * Added a legend that is movable.
- * Added a flavicon for USGS.
+ * Added a favicon for USGS.
 
 - - -
 ___

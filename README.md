@@ -2,7 +2,8 @@
 Mapped weekly earthquake data through an API using Leaflet JavaScript Library
 
 - Includes a Level 1 - basic mapping visualization 
-- Level 2 - 2 datasets showing 2 overlays, several tiles to visualize the data on.  
+- Level 2 - 2 datasets showing 2 overlays, several tiles to visualize the data on.
+- Final : Includes extra styles and a moveable legend.  
 
 ***NOTE:*** Config file: One must supply their own API_KEY from [Map Box](https://www.mapbox.com/)
 
@@ -17,7 +18,7 @@ Visualized an earthquake data set.
 
    ![3-Data](Images/3-Data.png)
 
-   The USGS provides earthquake data in a number of different formats, updated every 5 minutes. Visited the [USGS GeoJSON Feed](http://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php) page and picked a data set to visualize. When one clicks on a data set, for example "All Earthquakes from the Past 7 Days", one will be given a JSON representation of that data. Used the URL of this JSON to pull in the data for this visualization.
+   The USGS provides earthquake data in a number of different formats, updated every few minutes. Visited the [USGS GeoJSON Feed](http://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php) page and picked a data set to visualize. Clicked on a data set, for example "All Earthquakes from the Past 7 Days", one will be given a JSON representation of that data. Used the URL of this JSON to pull in the data for this visualization.
 
    ![4-JSON](Images/4-JSON.png)
 
@@ -29,7 +30,7 @@ Visualized an earthquake data set.
 
    * Included popups that provide additional information about the earthquake when a marker is clicked.
 
-   * Created a legend that will provide context for the map data.
+   * Created a legend provides context for the map data.
 
    * The visualization looks something like the map above.
 
@@ -39,7 +40,7 @@ Visualized an earthquake data set.
 
 ![5-Advanced](Images/5-Advanced.png)
 
-Plotted a second USGS map with a second data set on the map to illustrate the relationship between tectonic plates and seismic activity. Pulled in a second data set and visualize it alongside your original set of data. Data on tectonic plates can be found at <https://github.com/fraxen/tectonicplates>.
+Re-Plotted the USGS map (weekly earhtquakes) with a second data set (tectonic plate boundaries) on the map to illustrate the relationship between tectonic plates and seismic activity. Visualized the data using overlays. Data on tectonic plates can be found at <https://github.com/fraxen/tectonicplates>.
 
 * Plotted a second data set on the map.
 
@@ -49,7 +50,7 @@ Plotted a second USGS map with a second data set on the map to illustrate the re
 
 ### Final: 
  * Added additional styling to the popups. 
- * Added a legend that is movable.
+ * Revised the legend that to be movable.
  * Added a favicon for USGS.
 
 - - -
